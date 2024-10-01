@@ -1,0 +1,28 @@
+/* styles.css */
+.text1::before{
+    content: "Aman Pathak";
+    color: greenyellow;
+  
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-right: .2rem solid greenyellow;
+
+    width: 0%;
+    overflow: hidden;
+    animation: with linear infinite 2s;
+    -webkit-animation: with linear infinite 3s;
+}
+@keyframes with {
+    0%{
+    width: 0%;
+}
+50%{
+    width: 100%;
+}
+
+100%{
+    width: 0%;
+}
+}
